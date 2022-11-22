@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4401],{171:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/cozie-fitbit-website-new/blog/tags/hola","allTagsPath":"/cozie-fitbit-website-new/blog/tags","count":1}')}}]);

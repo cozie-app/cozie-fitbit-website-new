@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5423],{7011:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/cozie-fitbit-website-new/blog/tags/docusaurus","allTagsPath":"/cozie-fitbit-website-new/blog/tags","count":4}')}}]);
