@@ -9,7 +9,7 @@ const config = {
   title: 'Cozie, a Fitbit Clockface for IEQ and physiological data collection',
   tagline: 'Allows building occupants to provide feedback in real time',
   url: 'https://cozie-app.github.io',
-  baseUrl: '/cozie-fitbit-website-new/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
