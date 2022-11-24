@@ -6,7 +6,7 @@ sidebar_label: Picking a Fitbit
 
 ## Purchasing Fitbits
 
-The cozie app is compatible with fitbit models:
+The Cozie app is compatible with fitbit models:
 * [Ionic](https://www.fitbit.com/ionic) - No longer on sale in Fitbit Shop but still compatible
 * [Versa](https://www.fitbit.com/versa) - No longer on sale in Fitbit Shop but still compatible
 * [Versa Lite](https://www.fitbit.com/versa-lite) - recommended for cost. 1 hour set up time per fitbit as installation is done via bluetooth, not wifi

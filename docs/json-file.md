@@ -8,8 +8,8 @@ sidebar_label: Get the JSON file
 
 Once you created all your questions, two possibilities are available:
 
-- Generate your question flow JSON file: this will only generate the question flow as a JSON file that fits with the implementation of cozie for Fitbit.
-- [Generate your cozie](generate-cozie.md): this will generate cozie with your own question flow. You will be able to download it as a zip-file.
+- Generate your question flow JSON file: this will only generate the question flow as a JSON file that fits with the implementation of Cozie for Fitbit.
+- [Generate your Cozie](generate-cozie.md): this will generate Cozie with your own question flow. You will be able to download it as a zip-file.
 
 ## Generate the JSON file
 
