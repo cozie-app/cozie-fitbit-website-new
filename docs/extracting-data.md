@@ -8,47 +8,40 @@ sidebar_label: Extracting Data from Cozie
 ## Extracting Data
 Data can be extracted via our API
 
-**URL Key:** https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test/request/
-
-**Parameters**
-* experiment-id: The name you set in the cozie settings above (required)
-* user-id: The user-id set above (optional, if not included all users are extracted)
-* weeks: Weeks of data (optional, default is 2 weeks)
+| Parameter     | Description / Value                                                          | 
+|---------------|------------------------------------------------------------------------------|
+|API URL        |https://6uc3obiy9f.execute-api.ap-southeast-1.amazonaws.com/default/cozie-fitbit-researcher-read-influx                                                            |
+| API Key       | bUiB1HqmrK2eDBNqhsuGmaxrUKL1od8c3Qo6LJij                                     |
+| experiment-id &zwnj; &zwnj; &zwnj; | The name you set in the cozie settings above (required) |
+| user-id       | The user-id set above (optional, if not included all users are extracted)    |
+| weeks         | Weeks of data (optional, default is 2 weeks)                                 |
 
 ### Extracting Data with Python
 
 ```python
+# Import Python modules
 import requests
+import pandas as pd
+import json
 
-payload = {'experiment-id': 'test', 'weeks': '30', 'user-id': 'test05'}
-response = requests.get('https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test/request/', params = payload)
+# Config
+EXPERIMENT_ID = 'alpha'
+PARICIPANT_ID = 'alpha01'
+NO_WEEKS = 30
+YOUR_TIMEZONE = 'Asia/Singapore'
 
-print(response.content)
+# Assemble request
+payload = {'experiment_id': EXPERIMENT_ID, 'weeks': NO_WEEKS, 'user_id': PARICIPANT_ID}
+headers = {"Accept": "application/json", 'x-api-key': 'bUiB1HqmrK2eDBNqhsuGmaxrUKL1od8c3Qo6LJij'} # Test API key limited to 200 requests per day
+
+# Query data
+response = requests.get('https://6uc3obiy9f.execute-api.ap-southeast-1.amazonaws.com/default/cozie-fitbit-researcher-read-influx', params=payload, headers=headers)
+
+# Convert response to Pandas dataframe
+my_json = response.content.decode('utf8').replace("'", '"')
+data = json.loads(my_json)
+df = pd.read_json(data[1]['data']).T
+df.index = df.index.tz_localize('UTC').tz_convert(YOUR_TIMEZONE)
+
+df.head()
 ```
-
-### Extracting Data with Bash
-
-```bash
-$ curl https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test/request/?experiment-id=test&weeks=3
-```
-
-### Extracting Data with Node js
-
-There are multiple methods to access data. You may use `fetch` or `https`
-
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-
-```js
-fetch('https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test/request/?experiment-id=test&weeks=3')
-.then(function(response) {return response.json()})
-.then(function(myJson) {console.log(JSON.stringify(myJson))});
-```
-
-### Extracting as a human using a browser
-https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test/request/?experiment-id=YOUR EXPERIMENT ID&weeks=NUMBER_OF_WEEKS&user-id=USER-ID(OPTIONAL)
-
-for example. For Experiment-ID = test, User-ID = Vivid Vervet, and the last 30 weeks of data:
-
-https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test/request/?experiment-id=besh&weeks=30&user-id=test05
-
-### Other crowdsourced examples of extracting data from the Cozie app
