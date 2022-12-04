@@ -48,7 +48,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Generating your Cozie - NEW',
+      label: 'Custom Cozie watch survey',
       items: [
         "intro-generate-cozie",
         "add-questions",
