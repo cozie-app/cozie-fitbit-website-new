@@ -1,7 +1,7 @@
 ---
 id: troubleshooting-cozie-basic
-title: Troubleshooting Cozie Basic
-sidebar_label: Troubleshooting Cozie Basic
+title: Troubleshooting Cozie
+sidebar_label: Troubleshooting Cozie
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 id: installing-watchface
-title: Installing and using Cozie Basic
-sidebar_label: Installing and using Cozie Basic
+title: Installing and using Cozie
+sidebar_label: Installing and using Cozie
 ---
 
 

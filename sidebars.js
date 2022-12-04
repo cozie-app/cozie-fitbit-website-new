@@ -20,7 +20,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Getting started with Cozie basic',
+      label: 'Getting started with Cozie',
       items: [
         "home",
         "picking-a-fitbit",

@@ -1,7 +1,7 @@
 ---
 id: extracting-data
-title: Extracting Data from Cozie Basic
-sidebar_label: Extracting Data from Cozie Basic
+title: Extracting Data from Cozie
+sidebar_label: Extracting Data from Cozie
 ---
 
 
