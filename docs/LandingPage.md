@@ -26,8 +26,9 @@ For older devices, such as the Fitbit Iconic, Versa, and Versa 2, the Fitbit SDK
 
 For newer devices, such as the Fitbit Versa 3 and Sense, the Fitbit SDK 5.0> needs to be used. The source code for this current SDK is available in the [Master branch](https://github.com/cozie-app/cozie) of the GitHub repository for Cozie Fitbit.
 
-## License
+The documentation available under [Creating your own Cozie](app-creation-setup) are based on the older SDK. However, the main differences is a slightly altered folder structure. Hence, it should also be mostly applicable to the Cozie for the new SDK.
 
+## License
 The Cozie clock face is open sourced under at GPLv3 License.
 
 
