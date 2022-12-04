@@ -4,7 +4,7 @@ title: Installation and setup
 sidebar_label: Installation and setup
 ---
 
-<iframe width="100%" height="400" src="https://www.youtube.com/watch?v=oLrP8FDAQd8&list=PLkQs5WJXVHbiBDjmv-1tBYNUQOkmNCctA&index=2&t=0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/oLrP8FDAQd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Make sure you have npm, and node installed on your system
 
