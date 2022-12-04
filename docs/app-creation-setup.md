@@ -4,19 +4,20 @@ title: Creating your own Cozie App
 sidebar_label: Creating your own Cozie App
 ---
 
+
+
 ## Prerequisites
 
-This whole section use a deprecated version of the code.
-This section needs programming skills.
+The documentation available under [Creating your own Cozie](app-creation-setup) are based on the older SDK. However, the main differences is a slightly altered folder structure. Hence, it should also be mostly applicable to the Cozie for the new SDK.
 
-## Introduction
+If you want to modify the Cozie clockface for Fitbit you should have a basic understanding of HTML and at least intermediate skills of JavaScript. 
 
-The Cozie basic app may not work for you for several reasons:
-- You can't have your data flowing into the BUDS lab servers
-- You'd like to create your own questions
-- You'd like to contribute to the core repository!
+For the case that you just want to add your own watch survey, you need to be able to edit a JSON file.
 
-In these cases, you can fork or branch the repository and use this tutorial to use the source code to create your own.
+Cozie Fitbit requires a backend that receives the survey responses. We provide such capability. However, there is no guarantee of service. If you want to deploy Cozie in your own experiment, we recomment that you setup your own backebd. Alternatively, you might reach out to [Clayton](mailto:clayton@nus.edu.sg) to negotiate the service level.
 
+If you create you own watch survey or even your own version of Cozie, we recommend to fork the [GitHub repository for Cozie Fitbit](https://github.com/cozie-app/cozie)
+
+## Support
 You can also reach out to [Clayton](mailto:clayton@nus.edu.sg) or [PJ](mailto:p.jayathissa@gmail.com) for consulting support.
 
