@@ -6,11 +6,11 @@ sidebar_label: Introduction
 
 ## Link
 
-Link to the web interface: [Cozie generator](https://software-developments-pg.com/generate-cozie/start.php)
+Link to the web interface: [Cozie Fitbit watch survey generator](http://software-developments-pg.com/others/generate-cozie/add_question.php)
 
 ## Introduction
 
-[Cozie generator](https://software-developments-pg.com/generate-cozie/start.php) is a web interface that allows users to generate a version of cozie with their own question flow. Thanks to this interface, users can create each question, set up every single answer and finally choose which question comes after a specific answer.
+[Cozie Fitbit watch survey generator](http://software-developments-pg.com/others/generate-cozie/add_question.php) is a web interface that allows users to generate a version of cozie with their own question flow. Thanks to this interface, users can create each question, set up every single answer and finally choose which question comes after a specific answer.
 
 ## Prerequisites
 
