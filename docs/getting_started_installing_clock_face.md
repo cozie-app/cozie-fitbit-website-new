@@ -4,7 +4,6 @@ title: Installing and using Cozie
 sidebar_label: Installing and using Cozie
 ---
 
-
 ## Downloading Cozie App
 [Go to this link](https://gallery.fitbit.com/details/d787c911-ce11-432e-8b68-69da0f3446c8) on your cellphone, and let it auto direct towards the Fitbit store. 
 

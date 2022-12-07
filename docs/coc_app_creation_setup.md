@@ -4,8 +4,6 @@ title: Creating your own Cozie App
 sidebar_label: Creating your own Cozie App
 ---
 
-
-
 ## Prerequisites
 
 The documentation available under [Creating your own Cozie](app-creation-setup) are based on the older SDK. However, the main differences is a slightly altered folder structure. Hence, it should also be mostly applicable to the Cozie for the new SDK.
