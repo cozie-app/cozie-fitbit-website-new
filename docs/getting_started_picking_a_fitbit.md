@@ -4,14 +4,13 @@ title: Picking a Fitbit
 sidebar_label: Picking a Fitbit
 ---
 
-## Purchasing Fitbits
+Fitbit's SDK has a compatiibility break. Hence, there are two versions for Cozie Fitbit: Current and legacy. Cozie should run on all wacthes listed in the table below.
 
-The Cozie app is compatible with fitbit models:
-* [Ionic](https://www.fitbit.com/ionic) - No longer on sale in Fitbit Shop but still compatible
-* [Versa](https://www.fitbit.com/versa) - No longer on sale in Fitbit Shop but still compatible
-* [Versa Lite](https://www.fitbit.com/versa-lite) - recommended for cost. 1 hour set up time per fitbit as installation is done via bluetooth, not wifi
-* [Versa 2](https://www.fitbit.com/versa) - recommended for speed of set up (approximately 15min set up time)
-
-https://www.fitbit.com/home
-
-Set up your Fitbit as per instructions on the device, and pair to your mobile phone.
+| Watch             | SDK     | Tested | Availability                     |
+|-------------------|---------|--------|----------------------------------|
+|Fitbit Sense       | Current | ?      | Yes                              |
+|Fitbit Versa 3     | Current | ?      | Yes                              |
+|Fitbit Versa 2     | Legacy  | Yes    | Yes                              |
+|Fitbit Versa Light | Legacy  | Yes    | No longer on sale in Fitbit Shop |
+|Fitbit Versa       | Legacy  | Yes    | No longer on sale in Fitbit Shop |
+|Fitbit Ionic       | Legacy  | Yes    | No longer on sale in Fitbit Shop |
