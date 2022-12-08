@@ -21,4 +21,3 @@ Fitbit and some models of phones have issues syncing data. Here is a checklist o
 * Close all apps including the Fitbit app, turn off Bluetooth, turn on Bluetooth, open Fitbit app try the sync again.
 * Close all apps, turn off Bluetooth, clear Bluetooth cache is possible, connect to Fitbit using the Bluetooth menu of your phone (not in the Fitbit app), then open the Fitbit and sync.
 * Turn Fitbit off (settings>about>poweroff), and then turn it on again. Turn the phone off and on.
-

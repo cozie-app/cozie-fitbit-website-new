@@ -6,7 +6,7 @@ sidebar_label: Generate your Cozie
 
 ## Introduction
 
-This feature allows you to generate your Cozie in a more convenient way. If you chose to generate the JSON file only, you can easily follow the steps detailed [here](json-file.md#build-and-install-cozie).
+This feature allows you to generate your Cozie in a more convenient way. If you chose to generate the JSON file only, you can easily follow the steps detailed [here](wsg_json-file.md#build-and-install-cozie).
 
 ## Generate cozie
 
