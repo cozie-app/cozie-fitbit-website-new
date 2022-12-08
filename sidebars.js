@@ -24,7 +24,7 @@ const sidebars = {
       items: [
         "home",
         "picking-a-fitbit",
-        "installing-watchface",
+        "installing-clock-face",
         "extracting-data",
         "troubleshooting-cozie-basic",
         "example-of-experimental-method"

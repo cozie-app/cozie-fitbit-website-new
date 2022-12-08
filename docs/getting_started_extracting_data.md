@@ -6,7 +6,7 @@ sidebar_label: Extracting Data from Cozie
 
 
 ## Extracting Data
-Data can be extracted via our API
+Data can be extracted via our web API:
 
 | Parameter     | Description / Value                                                          | 
 |---------------|------------------------------------------------------------------------------|
@@ -18,6 +18,8 @@ Data can be extracted via our API
 
 ### Extracting Data with Python
 
+The Python script below is all you need to download data logged with the Cozie clock face.. Make sure to configure at leaset `EXPERIMENT_ID` and `PARTICIPANT` before executing the script.
+
 ```python
 # Import Python modules
 import requests
@@ -26,12 +28,12 @@ import json
 
 # Config
 EXPERIMENT_ID = 'alpha'
-PARICIPANT_ID = 'alpha01'
+PARTICIPANT_ID = 'alpha01'
 NO_WEEKS = 30
 YOUR_TIMEZONE = 'Asia/Singapore'
 
 # Assemble request
-payload = {'experiment_id': EXPERIMENT_ID, 'weeks': NO_WEEKS, 'user_id': PARICIPANT_ID}
+payload = {'experiment_id': EXPERIMENT_ID, 'weeks': NO_WEEKS, 'user_id': PARTICIPANT_ID}
 headers = {"Accept": "application/json", 'x-api-key': 'bUiB1HqmrK2eDBNqhsuGmaxrUKL1od8c3Qo6LJij'} # Test API key limited to 200 requests per day
 
 # Query data
