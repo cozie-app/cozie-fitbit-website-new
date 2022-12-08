@@ -12,7 +12,7 @@ In this section, you will learn how to create a question that you will add to yo
 
 As you may have noticed, there are several sections:
 
-- Preview of the question flow: this section, detailed [here](wsg_question-flow-preview.md), will display, as it will be printed on the watch, all the questions you already added to the question flow.
+- Preview of the question flow: this section, detailed [here](./wsg_question_flow_preview.md), will display, as it will be printed on the watch, all the questions you already added to the question flow.
 - Add a question to JSON file: this section allows you to fill out the details of the next question you will add. First, you will fill in the details of the question itself. Then, you will type in the details for each answer.
 
 ## Question details

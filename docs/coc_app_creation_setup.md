@@ -6,7 +6,7 @@ sidebar_label: Creating your own Cozie App
 
 ## Prerequisites
 
-The documentation available under [Creating your own Cozie](coc_app_creation_setup) are based on the older Fitbit SDK. However, the main differences is a slightly altered folder structure. Hence, it should also be mostly applicable to the Cozie for the new SDK.
+The documentation available under [Creating your own Cozie](app-creation-setup) are based on the older Fitbit SDK. However, the main differences is a slightly altered folder structure. Hence, it should also be mostly applicable to the Cozie for the new SDK.
 
 If you want to modify the Cozie clock face for Fitbit you should have a basic understanding of HTML and at least intermediate skills of JavaScript. 
 
