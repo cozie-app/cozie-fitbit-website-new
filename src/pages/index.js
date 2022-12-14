@@ -151,7 +151,7 @@ function Home() {
           <div className="row">
             <div className={clsx("col", styles.profileImgContainer)}>
               <img
-                alt="cozie main question"
+                alt="Cozie main question"
                 className={styles.mainImage}
                 src={"img/cozieHomescreen.png"}
               />

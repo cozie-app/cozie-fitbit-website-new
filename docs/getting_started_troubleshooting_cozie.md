@@ -10,7 +10,7 @@ Please [submit any issues to our issue tracker](https://github.com/buds-lab/cozi
 
 Here is a quick checklist before submitting an issue
 * Check that Bluetooth and internet is on, on your cellphone.
-* Check that you are using the latest version of the cozie app.
+* Check that you are using the latest version of the Cozie app.
 * Check that your Fitbit is up to date.
 * If settings are not persisting, then try sync your phone to your Fitbit manually.
 

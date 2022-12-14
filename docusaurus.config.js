@@ -76,7 +76,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Introduction to cozie',
+                label: 'Introduction to Cozie',
                 to: '/docs/home',
               },
             ],

@@ -8,7 +8,7 @@ sidebar_label: Generate your Cozie
 
 This feature allows you to generate your Cozie in a more convenient way. If you chose to generate the JSON file only, you can easily follow the steps detailed [here](./wsg_json_file.md#build-and-install-cozie).
 
-## Generate cozie
+## Generate Cozie
 
 Once you created all your questions, you can easily click on the <strong>Get Cozie with this question flow</strong> button. Then, you will be able to download a zip-file gathering all the file needed to build Cozie with your question flow. Eventually, you can follow these steps:
 
