@@ -22,7 +22,7 @@ const features = [
     imageUrl: "img/undraw_dev_productivity_umsq.png",
     description: (
       <>
-        Cozie is an Open Source project and together with{" "}
+        Cozie is an open-source project and together with{" "}
         <a href={"https://cozie-apple.app"}>Cozie Apple</a>, allows researchers to
         focus on the data collection. We have taken care of all the programming
         for you!
@@ -144,7 +144,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Cozie - A Fitbit clockface for indoor environmental quality satisfaction and physiological data collection."
+      description="Cozie - A Fitbit clock face for indoor environmental quality satisfaction and physiological data collection."
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
@@ -228,6 +228,19 @@ function Home() {
             </div>
           </section>
         )}
+        <hr />
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+                <p>
+                  Please cite us as <br/>
+                  <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1343/1/012145">
+                    Prageeth Jayathissa, Matias Quintana, Tapeesh Sood and Negin Nazarian, Clayton Miller (2019) Is your clock-face cozie? A smartwatch methodology for the in-situ collection of occupant comfort data
+                  </a>
+                </p>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
