@@ -79,6 +79,10 @@ const config = {
                 label: 'Introduction to Cozie',
                 to: '/docs/home',
               },
+              {
+                label: 'Contact us',
+                to: 'mailto:"mailto:cozie.app@gmail.com',
+              },
             ],
           },
           {
