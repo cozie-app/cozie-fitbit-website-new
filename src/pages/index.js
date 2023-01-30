@@ -18,6 +18,14 @@ const features = [
     ),
   },
   {
+    title: <> </>,
+    //imageUrl: "img/undraw_dev_productivity_umsq.png",
+    description: (
+      <>
+      </>
+    ),
+  },
+  {
     title: <>Open Source</>,
     imageUrl: "img/undraw_dev_productivity_umsq.png",
     description: (
