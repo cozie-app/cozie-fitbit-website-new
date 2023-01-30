@@ -67,6 +67,16 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://cozie-apple.app',
+            label: 'Cozie-Apple',
+            position: 'right',
+          },
+          {
+            href: 'https://cozie.app',
+            label: 'Cozie Research',
+            position: 'right',
+          },
         ],
       },
       footer: {
