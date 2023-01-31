@@ -18,14 +18,6 @@ const features = [
     ),
   },
   {
-    title: <> </>,
-    //imageUrl: "img/undraw_dev_productivity_umsq.png",
-    description: (
-      <>
-      </>
-    ),
-  },
-  {
     title: <>Open Source</>,
     imageUrl: "img/undraw_dev_productivity_umsq.png",
     description: (
@@ -56,7 +48,7 @@ function Feature({ imageUrl, title, description }) {
   return (
     <div
       className={clsx(
-        "avatar avatar--vertical col col--4 text--center",
+        "avatar avatar--vertical col col--6 text--center",
         styles.features
       )}
     >
