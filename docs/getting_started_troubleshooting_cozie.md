@@ -14,7 +14,15 @@ Here is a quick checklist before submitting an issue
 * Check that your Fitbit firmware is up to date.
 * If settings are not persisting, then try syncing your phone to your Fitbit manually by pressing 'Sync now' in the submenu for the Fitbit watch within the Fitbit app
 
-### Syncing Data issues
+### Installation
+Sometimes, the Fitbit app can get stuck installing a clock face. Below is a checklist that might help resolve the issue.
+* In the Fitbit app, go to the submenu for your Fitbit watch.
+* Go to Gallery, select a new clock face, and install it. We like the 'In The Zone' clock face by Fitbit
+* Ensure that the new clock face appears on the Fitbit device
+* The previously endless installation of the previous clock face should have ended.
+* Remove and re-install the previous clockface.
+
+### Syncing Data
 Fitbit and some models of phones have issues syncing data. Here is a checklist of steps that have helped us get over this issue.
 * Charge the Fitbit, if the battery levels are too low then it won't sync.
 * Check that the phone is not in any battery-saving mode.
@@ -30,10 +38,4 @@ In some cases, the data still doesn't sync after the steps above. The UI of the 
 * After the reset pair the Fitbit device again with your smartphone.
 This procedure can take about 30 minutes due to the slow pairing process between the Fitbit watch and the smartphone.
 
-### Installation issues
-Sometimes, the Fitbit app can get stuck installing a clock face. Below is a checklist that might help resolve the issue.
-* In the Fitbit app, go to the submenu for your Fitbit watch.
-* Go to Gallery, select a new clock face, and install it. We like the 'In The Zone' clock face by Fitbit
-* Ensure that the new clock face appears on the Fitbit device
-* The previously endless installation of the previous clock face should have ended.
-* Remove and re-install the previous clockface.
+
