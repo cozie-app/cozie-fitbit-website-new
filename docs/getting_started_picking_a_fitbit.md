@@ -8,6 +8,7 @@ Fitbit's SDK has a compatiibility break. Hence, there are two versions for Cozie
 
 | Watch             | Fitbit OS SDK | Tested      | Availability   |
 |-------------------|---------------|-------------|----------------|
+|Fitbit Sense 2     | SDK >5.0      | No          | No             |
 |Fitbit Sense       | SDK >5.0      | in progress | Yes            |
 |Fitbit Versa 3     | SDK >5.0      | in progress | Yes            |
 |Fitbit Versa 2     | SDK <4.2      | Yes         | Yes            |
