@@ -159,21 +159,13 @@ function Home() {
             <div className={clsx("col", styles.profileHeroContainer)}>
               <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
-              <a
-                className={clsx(
-                  "button button--outline button--active button--secondary button--lg margin--sm"
-                )}
-                href={"mailto:cozie.app@gmail.com"}
-              >
+              <a className={clsx("button button--outline button--active button--secondary button--lg margin--sm")}
+                href={"mailto:cozie.app@gmail.com"}>
                 Contact us
               </a>
-              <a
-                className={clsx(
-                  "button button--outline button--active button--secondary button--lg margin--sm"
-                )}
-                href={"mailto:cozie.app@gmail.com"}
-              >
-                Become a tester
+              <a className={clsx("button button--outline button--active button--secondary button--lg margin--sm")}
+                href={"docs/picking-a-fitbit"}>
+                Download Cozie
               </a>
             </div>
           </div>
