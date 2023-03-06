@@ -160,12 +160,12 @@ function Home() {
               <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
               <a className={clsx("button button--outline button--active button--secondary button--lg margin--sm")}
-                href={"mailto:cozie.app@gmail.com"}>
-                Contact us
-              </a>
-              <a className={clsx("button button--outline button--active button--secondary button--lg margin--sm")}
                 href={"docs/picking-a-fitbit"}>
                 Download Cozie
+              </a>
+              <a className={clsx("button button--outline button--active button--secondary button--lg margin--sm")}
+                href={"https://github.com/cozie-app/cozie/discussions"}>
+                Forum
               </a>
             </div>
           </div>
