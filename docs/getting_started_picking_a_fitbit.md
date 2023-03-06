@@ -6,7 +6,7 @@ sidebar_label: Picking a Fitbit
 
 Fitbit's SDK has a compatiibility break. Hence, there are two versions for Cozie Fitbit: SDK <5.0 (current) and SDK <4.2 (legacy). Cozie should run on all watches listed in the table below.
 
-| Watch             | Fitbit OS SDK | Tested      | Hardwaer Availability | Link to Clockface |
+| Watch             | Fitbit OS SDK | Tested      | Hardware Availability | Link to Clockface |
 |-------------------|---------------|-------------|-----------------------|-------------------|
 |Fitbit Sense 2     | SDK >5.0      | No          | Yes                   | not available |
 |Fitbit Sense       | SDK >5.0      | in progress | Yes                   | under review | <!--[Cozie 2](https://gallery.fitbit.com/details/354ed931-1207-4e2f-a92e-3383bd396f68) |-->
