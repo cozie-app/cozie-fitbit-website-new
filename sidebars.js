@@ -46,6 +46,7 @@ const sidebars = {
         "gs-sending-data-to-cloud",
       ],
     },
+    /* These pages are commented out because the watch survey generator is hosted by Pierre and it is often offline.
     {
       type: 'category',
       label: 'Custom Cozie watch survey',
@@ -57,7 +58,7 @@ const sidebars = {
         "json-file",
         "generate-cozie",
       ],
-    },
+    },*/
   ],
 };
 
