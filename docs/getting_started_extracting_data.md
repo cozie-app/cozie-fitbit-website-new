@@ -27,15 +27,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Settings
-YOUR_TIMEZONE = 'Europe/Rome'
-ID_PARTICIPANT = 'anca05'
-ID_EXPERIMENT = 'anca'
+YOUR_TIMEZONE = 'Asia/Singapore'
+ID_PARTICIPANT = 'alpha'
+ID_EXPERIMENT = 'alpha01'
 WEEKS = "100"  # Number of weeks from which the data is retrived, starting from now
-API_KEY = 'NMn6NQDZMm9QJmEAWg4Md4iuvIbV7BEd5crUK8cf' # reach out to cozie.app@gmail.com for an API_KEY
+API_KEY = '' # reach out to cozie.app@gmail.com for an API_KEY
 
 # Assemble request
 payload = {'experiment_id': ID_EXPERIMENT, 'weeks': WEEKS, }
-headers = {"Accept": "application/json", 'x-api-key': 'bUiB1HqmrK2eDBNqhsuGmaxrUKL1od8c3Qo6LJij'} # Test API key limited to 200 requests per day
+headers = {"Accept": "application/json", 'x-api-key': API_KEY}
 
 # Query data
 response = requests.get('https://6uc3obiy9f.execute-api.ap-southeast-1.amazonaws.com/default/cozie-fitbit-researcher-read-influx', params=payload, headers=headers)
