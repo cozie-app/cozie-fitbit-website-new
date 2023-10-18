@@ -35,7 +35,8 @@ In some cases, the data still doesn't sync after the steps above. The UI of the 
 * On the Fitbit device, swipe left to access the menu.
 * Go to 'Settings'
 * Go to 'About', select 'Factory Reset', and confirm the reset by pressing 'reset'.
-* After the reset pair the Fitbit device again with your smartphone.
+* 'Forget' the Fitbit device in the Bluetooth Settings of your smartphone.
+* After the reset, pair the Fitbit device again with your smartphone. For some Fitbit devices, this might require to connect the Fitbit device with its charger.
 This procedure can take about 30 minutes due to the slow pairing process between the Fitbit watch and the smartphone.
 
 
