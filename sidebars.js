@@ -25,9 +25,8 @@ const sidebars = {
         "home",
         "picking-a-fitbit",
         "installing-clock-face",
-        "extracting-data",
-        "troubleshooting-cozie-basic",
-        "example-of-experimental-method"
+        "download-data",
+        "troubleshooting-cozie-basic"
       ],
     },
     {

@@ -1,7 +1,7 @@
 ---
 id: datatransfer-between-phone-and-fitbit
-title: Datatransfer between the phone and the Fitbit
-sidebar_label: Datatransfer between the phone and the Fitbit
+title: Data transfer between the phone and the Fitbit
+sidebar_label: Data transfer between the phone and the Fitbit
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/PapzIbgKyIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

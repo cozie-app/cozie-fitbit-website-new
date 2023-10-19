@@ -1,7 +1,7 @@
 ---
-id: extracting-data
-title: Extracting Data from Cozie
-sidebar_label: Extracting Data from Cozie
+id: download-data
+title: Download Cozie-Fitbit data
+sidebar_label: Download Cozie Data
 ---
 
 
@@ -14,11 +14,11 @@ Data can be extracted via our web API:
 | API key       | Reach out to cozie.app@gmail.com for an API key                                                        |
 | experiment_id &zwnj; &zwnj; &zwnj; | Value entered in the Cozie settings                                               |
 | user_id       | Value entered in the Cozie settings (optional, if not included all users are extracted)                |
-| weeks         | Weeks of data (optional, default is 2 weeks, timeframe 2 weeks from now until now)                     |
+| weeks         | Weeks of data (optional, default is 2 weeks, time frame 2 weeks from now until now)                    |
 
 ### Extracting Data with Python
 
-The Python script below is all you need to download data logged with the Cozie clock face. Make sure to configure at leaset `ID_EXPERIMENT`, `ID_PARTICIPANT`, and `API_KEY` before executing the script.
+The Python script below is all you need to download data logged with the Cozie clock face. Make sure to configure at least `ID_EXPERIMENT`, `ID_PARTICIPANT`, and `API_KEY` before executing the script.
 
 ```python
 import requests
@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 YOUR_TIMEZONE = 'Asia/Singapore'
 ID_PARTICIPANT = 'alpha'
 ID_EXPERIMENT = 'alpha01'
-WEEKS = "100"  # Number of weeks from which the data is retrived, starting from now
+WEEKS = "100"  # Number of weeks from which the data is retrieved, starting from now
 API_KEY = '' # reach out to cozie.app@gmail.com for an API_KEY
 API_URL = 'https://6uc3obiy9f.execute-api.ap-southeast-1.amazonaws.com/default/cozie-fitbit-researcher-read-influx'
 
