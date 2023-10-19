@@ -58,7 +58,9 @@ df.head()
 The raw data has the watch survey responses encoded as numbers between 9 and 12. These values can be converted back into the words shown on the clock face with the code snippet below.
 ```python
 # Translate integer values into strings for main question flow
-translation_table = {'thermal':      { 9: 'No change',
+translation_table = {'comfort':      { 9: 'Not Comfy',
+                                      10: 'Comfy'},
+                     'thermal':      { 9: 'No change',
                                       10: 'Warmer',
                                       11: 'Cooler',
                                       12: 'Something else'},
@@ -94,7 +96,8 @@ df = df.replace(translation_table)
 Additionally, the column names can also be replaced with the question show on the clock face:
 ```python
 # Change column names
-df = df.rename(columns={'thermal':'Would you prefer to be?', 
+df = df.rename(columns={'comfort':'Clock face',
+                        'thermal':'Would you prefer to be?',
                         'indoorOutdoor':'Are you?', 
                         'location':'Where are you?', 
                         'clothing':'What are you wearing?', 
