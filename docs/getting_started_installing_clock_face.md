@@ -8,7 +8,7 @@ sidebar_label: Installing  Cozie
  * **Install the Fitbit app** from the app store of you choice:
    * Fitbit on the [Apple App Store](https://www.fitbit.com/global/sg/setup/setup-apple-store)
    * Fitbit on [Google Play Store](https://www.fitbit.com/global/sg/setup/setup-google-store)
- * **Intall the Cozie clock face** by [going to this link](https://gallery.fitbit.com/details/d787c911-ce11-432e-8b68-69da0f3446c8) on your cellphone, and let it auto direct towards the app & clock face gallery in the Fitbit app. 
+ * **Install the Cozie clock face** by [going to this link](https://gallery.fitbit.com/details/d787c911-ce11-432e-8b68-69da0f3446c8) on your cellphone, and let it auto direct towards the app & clock face gallery in the Fitbit app. 
  * **Set up Cozie**
    * In the clock face configurations configure to the following parameters:
    * **User ID:** This is an anonymous-id to identify the user that you create

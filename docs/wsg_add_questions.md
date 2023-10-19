@@ -23,10 +23,10 @@ First, let's focus on the question details section:
 
 You can notice on this screenshot that this section includes 5 fields:
 
-- Name: this is the name of the question. This field must not contain any sepcial caracter or space
+- Name: this is the name of the question. This field must not contain any special character or space
 - Displayed name: this field is used in the companion settings (depending on the version of Cozie, this feature might not be implemented anymore).
 - Question text: this field refers to the first line of the question that is printed on the watch. Make sure that this field length remains under 45 characters.
-- Second question text: this field is optionnal and should be used if the length of your question text is more than 45 characters. The value of this field is printed right below the previous field on the watch.
+- Second question text: this field is optional and should be used if the length of your question text is more than 45 characters. The value of this field is printed right below the previous field on the watch.
 - Number of answers: this field allows you to choose the number of answers of your question. This number remains between 2 and 4. If you change this field, the section below will automatically change and display all the field that has to be filled in, depending on the number of answers you chose.
 
 ## Answers details

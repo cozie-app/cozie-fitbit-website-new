@@ -4,7 +4,7 @@ title: Picking a Fitbit
 sidebar_label: Picking a Fitbit
 ---
 
-Fitbit's SDK has a compatiibility break. Hence, there are two versions for Cozie Fitbit: SDK <5.0 (current) and SDK <4.2 (legacy). Cozie should run on all watches listed in the table below.
+Fitbit's SDK has a compatibility break. Hence, there are two versions for Cozie Fitbit: SDK <5.0 (current) and SDK <4.2 (legacy). Cozie should run on all watches listed in the table below.
 
 | Watch             | Fitbit OS SDK | Tested      | Hardware Availability | Clock Face on Fitbit App Gallery | Github |
 |-------------------|---------------|-------------|-----------------------|-------------------|--------|

@@ -16,7 +16,7 @@ We are using AWS Lambda functions, however, valid alternatives are:
 
 You can also use any other cloud database out there, and you are not required to use InfluxDB.
 
-Please find below the Python code we are currently using in the Lambda function to send the data to our cloud database. Please edit the following line and add your information `InfluxDBClient("hostname", 8086, "username",'password', "datatbase", ssl=True, verify_ssl=True)`.
+Please find below the Python code we are currently using in the Lambda function to send the data to our cloud database. Please edit the following line and add your information `InfluxDBClient("hostname", 8086, "username",'password', "database", ssl=True, verify_ssl=True)`.
 
 ```python
 from __future__ import print_function
@@ -26,7 +26,7 @@ import json
 
 def lambda_handler(event, context):
     client = InfluxDBClient("hostname", 8086, "username",
-        'password', "datatbase", ssl=True, verify_ssl=True)
+        'password', "database", ssl=True, verify_ssl=True)
     try:
 
         print(event["body"])

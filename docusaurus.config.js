@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cozie, a Fitbit Clockface for IEQ and physiological data collection',
+  title: 'Cozie, a Fitbit clock face for IEQ and physiological data collection',
   tagline: 'Allows building occupants to provide feedback in real time',
   url: 'https://cozie-fitbit.app',
   baseUrl: '/',

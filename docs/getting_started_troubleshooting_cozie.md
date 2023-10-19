@@ -20,7 +20,7 @@ Sometimes, the Fitbit app can get stuck installing a clock face. Below is a chec
 * Go to Gallery, select a new clock face, and install it. We like the 'In The Zone' clock face by Fitbit
 * Ensure that the new clock face appears on the Fitbit device
 * The previously endless installation of the previous clock face should have ended.
-* Remove and re-install the previous clockface.
+* Remove and re-install the previous clock face.
 
 ### Syncing Data
 Fitbit and some models of phones have issues syncing data. Here is a checklist of steps that have helped us get over this issue.
