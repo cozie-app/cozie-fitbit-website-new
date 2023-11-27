@@ -7,6 +7,9 @@ sidebar_label: Troubleshooting Cozie
 ## Troubleshooting
 Please [submit any issues to our issue tracker](https://github.com/buds-lab/cozie/issues) and we will try to help you! :) If we fail to respond to the issue that your created ton the issue tracker, please inform us via cozie.app@gmail.com. Thank you.
 
+### Phone compatibility
+In our experience, Cozie-Fitbit does not work on Huawei and Xiaomi phones. Hence, we strongly recommend to avoid those smartphone brands when using Cozie.
+
 ### Basics
 Here is a quick checklist before submitting an issue
 * Check that Bluetooth and internet are enabled on your cellphone.
