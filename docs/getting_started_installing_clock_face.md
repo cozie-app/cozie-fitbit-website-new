@@ -15,3 +15,5 @@ sidebar_label: Installing  Cozie
    * **Experiment ID:** This is an experiment-id to identify the experiment that your results belong to. You will use this ID to query the results later. You create this unique identifier
    * **Questions:** Set the questions that you plan on asking.
  * **Sync** the Fitbit app with your your Fitbit watch. This will transfer the settings configured above to the cozie clock face on your Fitbit watch. Make sure that Bluetooth is on, and your Fitbit is close by and connected. Syncing the Fitbit can ensure that the settings persist from the phone to watch.
+ * **Deploy Cozie**
+   * We have a [deployment guide for Cozie-Apple](https://cozie-apple.app/docs/deployment/deployment) available. It also applies in large parts to Cozie-Fitbit.
