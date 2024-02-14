@@ -16,6 +16,7 @@ Here is a quick checklist before submitting an issue
 * Check that you are using the latest version of the Cozie app.
 * Check that your Fitbit firmware is up to date.
 * If settings are not persisting, then try syncing your phone to your Fitbit manually by pressing 'Sync now' in the submenu for the Fitbit watch within the Fitbit app
+* Only use one Google/Fitbit account per device pair (smartphone and Fitbit watch)
 
 ### Installation
 Sometimes, the Fitbit app can get stuck installing a clock face. Below is a checklist that might help resolve the issue.
