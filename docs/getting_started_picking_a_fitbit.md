@@ -6,6 +6,9 @@ sidebar_label: Picking a Fitbit
 
 Fitbit's SDK has a compatibility break. Hence, there are two versions for Cozie Fitbit: SDK <5.0 (current) and SDK <4.2 (legacy). Cozie should run on all watches listed in the table below.
 
+** Please note that starting June 2024, third-party apps will no longer be available on the Fitbit app gallery in the EU, and hence, Cozie for Fitbit will no longer be available in the EU. ([Source](https://www.androidcentral.com/apps-software/google-fitbit-third-party-app-removal-announced)) **
+
+
 | Watch             | Fitbit OS SDK | Tested      | Hardware Availability | Clock Face on Fitbit App Gallery | Github |
 |-------------------|---------------|-------------|-----------------------|-------------------|--------|
 |Fitbit Sense 2     | SDK >5.0      | -          | Yes                   | third-party apps not supported (<a href="https://community.fitbit.com/t5/Sense-2/Sense-2-SDK-version-and-buildTarget-alias/m-p/5261674#M2357">Source 1</a>, <a href="https://community.fitbit.com/t5/Sense-2/Are-third-party-apps-available-on-Sense-2/td-p/5244355">Source 2</a>, <a href="https://twitter.com/FitbitSupport/status/1626975689026199554?lang=en">Source 3</a>) | - |
