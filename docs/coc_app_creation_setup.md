@@ -4,7 +4,7 @@ title: Creating your own Cozie App
 sidebar_label: Creating your own Cozie App
 ---
 
-## Prerequisites
+<h2> Prerequisites </h2>
 
 The documentation available under [Creating your own Cozie](app-creation-setup) are based on the older Fitbit SDK. However, the main differences is a slightly altered folder structure. Hence, it should also be mostly applicable to the Cozie for the new SDK.
 
@@ -16,6 +16,6 @@ Cozie Fitbit requires a backend that receives the survey responses. We provide s
 
 If you create you own watch survey or even your own version of Cozie, we recommend to fork the [GitHub repository for Cozie Fitbit](https://github.com/cozie-app/cozie)
 
-## Support
+<h2> Support </h2>
 You can also reach out to [Clayton](mailto:clayton@nus.edu.sg) or [PJ](mailto:p.jayathissa@gmail.com) for consulting support.
 

@@ -4,7 +4,7 @@ title: Changing questions displayed to the user via settings
 sidebar_label: Change Settings
 ---
 
-## Introduction
+<h2> Introduction </h2>
 
 In this section, you will understand how to set up the "Select Question" settings available in the companion app.
 
@@ -12,7 +12,7 @@ As you may have noticed in the documentation videos you could find in the previo
 
 This feature has been deleted because of consistency issues with the new question flow type (which allows developers to redirect the user to a specific question after a specific answer). However, here is a way to bring this feature back if you are using the question flow type that does not redirect the user to different next questions depending on the answer (e.g. main-flow.json).
 
-## Changes in the code
+<h2> Changes in the code </h2>
 
 In order to bring this feature back, you need to change those 2 files:
 

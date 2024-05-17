@@ -4,14 +4,14 @@ title: Get your question flow JSON file
 sidebar_label: Get the JSON file
 ---
 
-## Introduction
+<h2> Introduction </h2>
 
 Once you created all your questions, two possibilities are available:
 
 - Generate your question flow JSON file: this will only generate the question flow as a JSON file that fits with the implementation of Cozie for Fitbit.
 - [Generate your Cozie](wsg_generate_cozie.md): this will generate Cozie with your own question flow. You will be able to download it as a zip-file.
 
-## Generate the JSON file
+<h2> Generate the JSON file </h2>
 
 By clicking on the <strong>Generate JSON question flow</strong>, you will be redirected to the JSON file.
 
@@ -19,7 +19,7 @@ By clicking on the <strong>Generate JSON question flow</strong>, you will be red
 
 Then you can easily copy all this document and paste it into the ```main-flow.json``` file that you can find at this path ```path-to-cozie-folder/resources/flows/main-flow.json```.
 
-## Build and install Cozie
+<h2> Build and install Cozie </h2>
 
 Now that you changed the question flow, here is the steps to follow to build and install your new version of cozie:
 

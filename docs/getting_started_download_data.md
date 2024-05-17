@@ -5,7 +5,7 @@ sidebar_label: Download Cozie Data
 ---
 
 
-## Extracting Data
+<h2> Extracting Data </h2>
 Data can be extracted via our web API:
 
 | Parameter     | Description / Value                                                                                    | 
@@ -16,7 +16,7 @@ Data can be extracted via our web API:
 | user_id       | Value entered in the Cozie settings (optional, if not included all users are extracted)                |
 | weeks         | Weeks of data (optional, default is 2 weeks, time frame 2 weeks from now until now)                    |
 
-### Extracting Data with Python
+<h3> Extracting Data with Python </h3>
 
 The Python script below is all you need to download data logged with the Cozie clock face. Make sure to configure at least `ID_EXPERIMENT`, `ID_PARTICIPANT`, and `API_KEY` before executing the script.
 
@@ -54,7 +54,7 @@ df = df.drop(columns=['index'])
 df.head()
 ```
 
-### Some mild data processing
+<h3> Some mild data processing </h3>
 The raw data has the watch survey responses encoded as numbers between 9 and 12. These values can be converted back into the words shown on the clock face with the code snippet below.
 ```python
 # Translate integer values into strings for main question flow

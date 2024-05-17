@@ -11,7 +11,7 @@ sidebar_label: Data transfer between the phone and the Fitbit
 Sending data is done using the recommended method, which is a bit of a headache.
 
 
-## Further reading
+<h2> Further reading </h2>
 
     Peersocket connections Device: https://dev.fitbit.com/build/reference/device-api/messaging/
         Companion: https://dev.fitbit.com/build/reference/companion-api/messaging/

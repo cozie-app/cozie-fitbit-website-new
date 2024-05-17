@@ -4,13 +4,13 @@ title: Troubleshooting Cozie
 sidebar_label: Troubleshooting Cozie
 ---
 
-## Troubleshooting
+<h2> Troubleshooting </h2>
 Please [submit any issues to our issue tracker](https://github.com/buds-lab/cozie/issues) and we will try to help you! :) If we fail to respond to the issue that your created ton the issue tracker, please inform us via cozie.app@gmail.com. Thank you.
 
-### Phone compatibility
+<h3> Phone compatibility </h3>
 In our experience, Cozie-Fitbit does not work on Huawei and Xiaomi phones. Hence, we strongly recommend to avoid those smartphone brands when using Cozie.
 
-### Basics
+<h3> Basics </h3>
 Here is a quick checklist before submitting an issue
 * Check that Bluetooth and internet are enabled on your cellphone.
 * Check that you are using the latest version of the Cozie app.
@@ -18,7 +18,7 @@ Here is a quick checklist before submitting an issue
 * If settings are not persisting, then try syncing your phone to your Fitbit manually by pressing 'Sync now' in the submenu for the Fitbit watch within the Fitbit app
 * Only use one Google/Fitbit account per device pair (smartphone and Fitbit watch)
 
-### Installation
+<h3> Installation </h3>
 Sometimes, the Fitbit app can get stuck installing a clock face. Below is a checklist that might help resolve the issue.
 * In the Fitbit app, go to the submenu for your Fitbit watch.
 * Go to Gallery, select a new clock face, and install it. We like the 'In The Zone' clock face by Fitbit
@@ -26,7 +26,7 @@ Sometimes, the Fitbit app can get stuck installing a clock face. Below is a chec
 * The previously endless installation of the previous clock face should have ended.
 * Remove and re-install the previous clock face.
 
-### Syncing Data
+<h3> Syncing Data </h3>
 Fitbit and some models of phones have issues syncing data. Here is a checklist of steps that have helped us get over this issue.
 * Charge the Fitbit, if the battery levels are too low then it won't sync.
 * Check that the phone is not in any battery-saving mode.

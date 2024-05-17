@@ -4,7 +4,8 @@ title: Add a question to your question flow
 sidebar_label: Add question
 ---
 
-## Introduction
+
+<h2> Introduction </h2>
 
 In this section, you will learn how to create a question that you will add to your question flow. Here is the interface as you may find it at the beginning:
 
@@ -15,7 +16,7 @@ As you may have noticed, there are several sections:
 - Preview of the question flow: this section, detailed [here](./wsg_question_flow_preview.md), will display, as it will be printed on the watch, all the questions you already added to the question flow.
 - Add a question to JSON file: this section allows you to fill out the details of the next question you will add. First, you will fill in the details of the question itself. Then, you will type in the details for each answer.
 
-## Question details
+<h2> Question details </h2>
 
 First, let's focus on the question details section:
 
@@ -29,7 +30,7 @@ You can notice on this screenshot that this section includes 5 fields:
 - Second question text: this field is optional and should be used if the length of your question text is more than 45 characters. The value of this field is printed right below the previous field on the watch.
 - Number of answers: this field allows you to choose the number of answers of your question. This number remains between 2 and 4. If you change this field, the section below will automatically change and display all the field that has to be filled in, depending on the number of answers you chose.
 
-## Answers details
+<h2> Answers details </h2>
 
 Now that the question details has been correctly filled in, you will have to fill in every answer's details. Depending on the number of answers, you will have to do this 2, 3 or 4 times. Here is an answer details section:
 
@@ -44,7 +45,7 @@ Here is an example for the left answer. In this section, you can find 4 fields:
 
 Eventually, you will have to fill in this section for every answer of the question.
 
-## Add your question
+<h2> Add your question </h2>
 
 Once every section explained above has been correctly filled in, the interface may be more or less like this (for a 2-answers question):
 
