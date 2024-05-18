@@ -171,19 +171,20 @@ function Home() {
           </div>
         </div>
       </header>
-      <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
+      <main>    
+      <section className={clsx(styles.features, styles.notice)}>
+          <div className="container">
+            <div className="row" >
+                <p>
+                  Please note that Google has made the decision to remove third-party apps and clocks from the Fitbit app gallery for users in the European Economic Area in June 2024. Users in other countries will not be impacted. (<a href="https://support.google.com/fitbit/answer/14237121?hl=en">Source</a>) <br/>
+                  In addition the most current Fitbit devices, e.g., Sense 2, Versa 4 do not support third-party apps and clocks.<br/><br/>
+                  Cozie Fitbit is such a third-party app.
+                  Hence, we have decided to stop the support of Cozie Fitbit. <br/>
+                  As an alternative, we recommend using <a href="https://cozie-apple.app/">Cozie Apple</a>.
+                </p>
             </div>
-          </section>
-        )}
-        <hr />
+          </div>
+        </section>
         <section className={styles.features}>
           <div className="container">
             <div className="row">
