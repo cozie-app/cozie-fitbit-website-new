@@ -68,7 +68,7 @@ const contributors = [
     name: <>Prageeth Jayathissa</>,
     imageUrl: "img/pjjayasthissa.jpeg",
     role: <>Lead developer</>,
-    profession: <>Senior Sustainabilit Partner at Vector Limited</>,
+    profession: <>Senior Sustainability Partner at Vector Limited</>,
     link: "https://www.linkedin.com/in/pjayathissa/",
   },
   {
