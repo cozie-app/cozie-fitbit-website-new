@@ -89,7 +89,7 @@ const contributors = [
     name: <>Matias Quintana</>,
     imageUrl: "img/matiasquintana.png",
     role: <>Back End</>,
-    profession: <>Ph.D Candidate at NUS</>,
+    profession: <>Postdoctoral Researcher at Singapore-ETH Centre</>,
     link: "https://www.linkedin.com/in/matiasqr/",
   },
   {
@@ -103,7 +103,7 @@ const contributors = [
     name: <>Clayton Miller</>,
     imageUrl: "img/clayton.png",
     role: <>Project coordinator and supervisor</>,
-    profession: <>Assistant Professor at NUS</>,
+    profession: <>Associate Professor at Singapore Management University</>,
     link: "https://www.linkedin.com/in/claytonmiller/",
   },
   {
